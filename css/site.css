@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+html {
+    font-size: 18px;
+    font-family: 'Montserrat',Verdana, Tahoma, sans-serif;
+    font-style:normal;    
+}
+body {
+    font-size: 16px;    
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size:2rem; /*px, em (relative to parent), or rem (relative to root element. best one to use) */
+    font-family: 'Times New Roman', serif;
+}
+
+#image-paragraph {
+    display:flow-root; /* keep text with image */
+}
+.sample-footer {
+    font-style: italic;
+}
+
+.test{
+    color:red;
+    font-style: italic;
+}
+#dog-on-couch {
+    width:30%;
+    float:left;
+    padding-right: 2%;
+}
